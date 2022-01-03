@@ -3,6 +3,7 @@
   "version": "1.4.1",
   "private": true,
   "scripts": {
+    "new": "node ./scripts/compose.js",
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
     "dev": "next dev",
     "build": "next build && node ./scripts/generate-sitemap",
