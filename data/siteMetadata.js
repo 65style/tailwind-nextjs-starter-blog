@@ -1,8 +1,8 @@
 const siteMetadata = {
-  title: '65style',
+  title: '65style.ga - Scene MP3 FLAC Music Blog',
   author: '65style',
-  headerTitle: '65style',
-  description: 'I Love ItaloDance',
+  headerTitle: '65style.ga',
+  description: 'Scene MP3 FLAC Music Blog',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://tailwind-nextjs-starter-blog-indol.vercel.app/',
