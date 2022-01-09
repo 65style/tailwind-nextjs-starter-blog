@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: '65style blog',
+  title: '65style',
   author: '65style',
-  headerTitle: '65style blog',
+  headerTitle: '65style',
   description: 'I Love ItaloDance',
   language: 'en-us',
   theme: 'system', // system, dark or light
