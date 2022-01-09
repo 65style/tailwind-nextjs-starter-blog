@@ -1,5 +1,5 @@
 const siteMetadata = {
-  title: '65style.ga - Scene MP3 FLAC Music Blog',
+  title: '65style.ga',
   author: '65style',
   headerTitle: '65style.ga',
   description: 'Scene MP3 FLAC Music Blog',
