@@ -1,0 +1,27 @@
+---
+title: docker解决C盘不足焦虑症
+date: '2023-07-14'
+tags: ['docker']
+draft: true
+summary:
+images: []
+layout: PostLayout
+---
+
+1.  首先关闭 docker
+2.  关闭所有发行版：`wsl --shutdown`
+3.  将 docker-desktop-data 导出到 D:\\u2004.tar（注意，原有的 docker images 不会一起导出） `wsl --export docker-desktop-data D:\u2004.tar`
+4.  注销 docker-desktop-data： `wsl --unregister docker-desktop-data`
+5.  重新导入 docker-desktop-data 到要存放的文件夹：D:\\Program Files\\wsl-docker-data： `wsl --import docker-desktop-data "D:\Program Files\wsl-docker-data" D:\docker-desktop-data.tar --version 2`
+
+重启启动 docker
+
+![](https://ask.qcloudimg.com/http-save/yehe-1063935/axj7kan5fb.png?imageView2/2/w/1200)
+
+好了，接下来就是改一下 docker 的 registry-mirrors ，指向自己喜欢的加速器，愉快的拉镜像去吧，还不用担心“C 盘空间不足焦虑症”发作。。。
+
+参考链接：
+
+https://www.cnblogs.com/xhznl/p/13184398.html
+
+https://blog.csdn.net/lee\_jackgg/article/details/106738878
